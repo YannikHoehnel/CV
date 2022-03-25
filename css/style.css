@@ -5,6 +5,7 @@ body {
 }
 
 h1 {
+    font-family: 'Caveat', cursive;
     font-size: 3rem;
     margin: 0 auto 0 auto;
     line-height: 2;
@@ -121,16 +122,14 @@ hr {
 
 .bg-container {
     width: 100%;
-    height: 400px;
+    height: fit-content;
     overflow: hidden;
     margin-top: 40px;
 }
 
 .mountain-img {
-    width: 120%;
+    width: 100%;
     position: relative;
-    bottom: 710px;
-    right: 250px;
 }
 
 .contact-me {
@@ -172,4 +171,18 @@ a {
     background-image: linear-gradient(to bottom, #609CA7, #2bc4ad);
     text-decoration: none;
     cursor: pointer;
+  }
+
+  .in-text-link {
+    border: 1px solid transparent;
+    border-bottom: 1px solid #2867B2;
+    border-radius: 0%;
+    padding: 1px
+  }
+
+  .in-text-link:hover {
+    border: 1px solid #2867B2;
+    border-radius: 0%;
+    padding: 1px;
+    background-color: #E4F9F5;
   }
