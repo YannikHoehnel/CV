@@ -57,6 +57,8 @@ hr {
 }
 
 .fa-linkedin {
+    font-size: 1em;
+    width: fit-content;
     background: #007bb5;
     color: white;
     padding: 2px;
@@ -64,6 +66,8 @@ hr {
 }
 
 .fa-github {
+    font-size: 1em;
+    width: fit-content;
     background: #211F1F;
     color: white;
     padding: 2px;
@@ -140,6 +144,21 @@ a {
     color: #2867B2;
     text-decoration: none;
 }
+
+.icon-btn {
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    border: none;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin: 20px;
+    display: inline-block;
+    cursor: pointer;
+  }
 
 .btn {
     background: #609CA7;
