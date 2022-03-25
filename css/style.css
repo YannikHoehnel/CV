@@ -76,6 +76,8 @@ hr {
 
 .profile {
     margin-bottom: 50px;
+    width: 90%;
+    margin: 50px auto;
 }
 
 .profile-img {
@@ -89,7 +91,8 @@ hr {
 }
 
 .skill-row {
-    width: 50%;
+    font-size: larger;
+    width: 80%;
     margin: 50px auto;
     text-align: left;
     min-height: 100px;
@@ -137,7 +140,9 @@ hr {
 }
 
 .contact-me {
-    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 90%;
+    margin: 50px auto;
 }
 
 a {
@@ -152,8 +157,7 @@ a {
     border: none;
     font-family: Arial;
     color: #ffffff;
-    font-size: 20px;
-    padding: 10px 20px 10px 20px;
+    font-size: 30px;
     text-decoration: none;
     margin: 20px;
     display: inline-block;
@@ -161,6 +165,7 @@ a {
   }
 
 .btn {
+    width: 30%;
     background: #609CA7;
     background-image: -webkit-linear-gradient(top, #609CA7, #11999e);
     background-image: -moz-linear-gradient(top, #609CA7, #11999e);
@@ -173,7 +178,7 @@ a {
     border: none;
     font-family: Arial;
     color: #ffffff;
-    font-size: 10px;
+    
     padding: 10px 20px 10px 20px;
     text-decoration: none;
     margin: 20px;
