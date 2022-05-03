@@ -38,6 +38,7 @@ hr {
 .bottom-container {
     background-color: #609CA7;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 .footer-copyright {
     color: #E4F9F5;
@@ -96,6 +97,10 @@ hr {
     margin: 50px auto;
     text-align: left;
     min-height: 100px;
+}
+
+.card-img {
+    width: 25px; 
 }
 
 .skill-img {
